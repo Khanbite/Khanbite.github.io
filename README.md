@@ -41,3 +41,21 @@ I *love* drawing and I also **love** videogames. Most importantly though, I ***l
     - A site with a gif of Oprah shouting Bees Bees Bees at her audience. Funny.
 * [2048](https://play2048.co/)
     - A simple webgame about combining blocks. The goal is to get to 2048.
+
+## My Mermaid Charts
+
+### Halloween Plan
+``` mermaid
+flowchart TD
+    A[Halloween] -->|Buy Costume| B(Go Trick or Treating)
+    B -->|One| D[Get Candy]
+    B -->|Two| E[Get Nothing]
+    B -->|Three| F[Get Tricked]
+```
+### Percent of different Music Genres in my Playlist
+``` mermaid
+pie title
+    "Hip-Hop" : 125
+    "R&B" : 85
+    "Jazz" : 15
+```
