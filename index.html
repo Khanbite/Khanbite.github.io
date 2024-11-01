@@ -2,31 +2,57 @@
 <html>
     <head>
         <title> Khani Lyan </title>
-        <link rel=“stylesheet” href="./styles.css"> 
+        <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
-        <h1 class='name'> 
+    <header>
+        <h1 class="name"> 
             My name is Khani Lyan
+            <img class="profilepic" src="https://t3.ftcdn.net/jpg/06/23/83/12/360_F_623831278_UGdz5yr06waGsb23X9V4FOF4I9bH5zbx.jpg">
         </h1>
-        <img src="https://t3.ftcdn.net/jpg/06/23/83/12/360_F_623831278_UGdz5yr06waGsb23X9V4FOF4I9bH5zbx.jpg">
-        <p> I am in the 11th grade. My first year of highschool was spent at Leesville Road High School, a place I did <em>not</em> like very much. Thankfully I transferred to WECIB in my 2nd year, and I love it here. In the near future, I would like to first pursue a degree in Computer Programming. Then, I would like to become a Software Engineer. My main goal in life is to live comfortably and securely, so I don't have to worry about the future.</p>
+        <nav>
+            <ul class="navBar">
+                <li><a class="navLink active" href="./index.html"><h3>Home</h3></a></li>
+                <li><a class="navLink" href="./interests.html"><h3>Interests</h3></a></li>
+                <li><a class="navLink" href="./contact.html"><h3>Contact</h3></a></li>
+            </ul>
+        </nav> 
+    </header>
+    <br>
+    <body>
+        <main class="row"> <!--Begin one row of 3-columns-->
+            <section class="column card"> <!-- Left Column-->
+                <article> 
+                    <h2 class="sectiontitle">About Me</h2> 
+                    <p> I am in the 11th grade. My first year of highschool was spent at Leesville Road High School, a place I did <em>not</em> like very much. Thankfully I transferred to WECIB in my 2nd year, and I love it here. In the near future, I would like to first pursue a degree in Computer Programming. Then, I would like to become a Software Engineer. My main goal in life is to live comfortably and securely, so I don't have to worry about the future.</p>
         <p> As I continue my journey through high school, I’m excited about the opportunities that lie ahead. I plan to immerse myself in coding and programming clubs to sharpen my skills and connect with like-minded peers. Participating in hackathons and collaborative projects will not only enhance my technical abilities but also foster teamwork and problem-solving skills, which are essential in the tech industry. I also hope to seek internships that will provide practical experience, allowing me to apply what I've learned in a real-world setting.</p>
         <p> Looking beyond my degree and early career, I dream of making a meaningful impact in the tech world. I envision working on projects that promote accessibility and sustainability, helping to create software that improves people's lives and addresses global challenges. Ultimately, my aspirations extend to leadership roles where I can inspire and mentor others in the field, contributing to a more inclusive tech community. Achieving these goals will not only bring me personal fulfillment but also allow me to build a secure future for myself and my family.</p>
-        <a href="interests.html">Interests and Hobbies</a>
-        <br>
-        <a href="contact.html">Contact Me</a>
-        <h3> My Skills: </h3>
-        <ol>
-            <li> Python Skills </li>
-            <li> Dance Skills </li>
-            <li> Communication Skills </li>
-        </ol>
-        <h3> Fun Projects: 
-        <ul>
-            <li> Mini Godot Game - A fun project where I learned more about Godot and started making a game. </li>
-            <li> Earth Science Volcano Model - Creating an <strong>awesome</strong> paper mache volcano.</li>
-            <li> Robot Building - Building a gundam like robot model. </li>
-        </ul>
-        </h3>
+                </article>
+            </section>
+                <section class="column card"> <!-- Middle Column-->
+                    <article><h2 class="sectiontitle">My Skills</h2>
+                        <ol>
+                            <li> Python Skills </li>
+                            <li> Dance Skills </li>
+                            <li> Communication Skills </li>
+                        </ol>
+                    </article>
+                </section>
+            <section class="column card">
+                <article><h2 class="sectiontitle">Fun Projects</h2>
+                    <ul>
+                        <li> Mini Godot Game - A fun project where I learned more about Godot and started making a game. </li>
+                        <li> Earth Science Volcano Model - Creating an <strong>awesome</strong> paper mache volcano.</li>
+                        <li> Robot Building - Building a gundam like robot model. </li>
+                    </ul>
+                </article>
+            </section>
+        </main>
     </body>
+    <footer>
+        <article class="card"><h3 class="sectiontitle">Email Me</h3>
+            <p id="contactinfo">
+                klyan@my.waketech.edu
+           </p>
+       </section>
+    </footer>
 </html>

@@ -6,6 +6,66 @@ Dark Accent: #E6E1DA;
 Dark Shades: #CDC7BF;
 */
 
-h1{
+.name{
     color: #032171;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    display: inline-block; 
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    top:0;
+    overflow: hidden;
+    background-color:#032171;
+    height:auto;
+}
+
+.navBar li{
+    float: left;
+    border-right: 1px;
+}
+
+.navBar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.column{
+    float: left;
+    width: 33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width:100%;
+    }
+}
+
+.sectiontitle{
+    color: #032171;
+    text-align:center
+}
+
+.card{
+    border: 3px #aaacb3;
+    background-color: #E6E1DA;
+    border-radius: 5px;
+    margin: 2px;
 }
